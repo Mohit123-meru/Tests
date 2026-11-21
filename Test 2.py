@@ -1,16 +1,16 @@
-
 try:
     num = int(input("Enter a number ( 1 and beyond ) : "))
     
     num2 = int(input("Enter a second number ( 1 and beyond ) : "))
 
 except ValueError :
+
     print ("Enter a nummber.")
 
 except ZeroDivisionError :
+
     print("You should not enter a zero.")
 
-else:
     def sub ( a , b):
         minus = a - b
         print(minus)
@@ -31,10 +31,10 @@ else:
         print(quotient)
         return (quotient)
 
-print (sub (num, num2))
+    print (sub (num, num2))
 
-print (add (num, num2))
+    print (add (num, num2))
 
-print ( multiply(num, num2))
+    print ( multiply(num, num2))
 
-print(divide (num, num2))
+    print (divide (num, num2))
